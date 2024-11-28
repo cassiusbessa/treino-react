@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  vision-front:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: treino
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    ports:
+      - "3000:3000"
+    networks:
+      - treino
+    volumes:
+      - ./treino:/treino  # Mapeia de dentro do container para o host
+networks:
+  treino:
+    driver: bridge
