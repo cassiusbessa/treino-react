@@ -81,7 +81,7 @@ Neste desafio, você criará uma **página de login simulado** usando Next.js. A
 
 ### 1. Criar a Página de Login
 
-- Crie um arquivo `pages/login.ts`.
+- Crie um arquivo `pages/login.tsx`.
 - Adicione um formulário com campos para:
   - **Username**
   - **Password**
@@ -89,7 +89,7 @@ Neste desafio, você criará uma **página de login simulado** usando Next.js. A
 
 ### 2. Criar a Página de Dashboard
 
-- Crie um arquivo `pages/dashboard.ts`.
+- Crie um arquivo `pages/dashboard.tsx`.
 - Use as APIs para exibir imagens de status HTTP:
   - `https://http.dog/200.jpg`
   - `https://http.cat/404.jpg`
