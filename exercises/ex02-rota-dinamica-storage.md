@@ -11,7 +11,9 @@
    - Adicione um botão "Capturar" no card do pokemon.
 	 - Ao clicar no botão, deve ser exibido umam mensagem "Pokemon x foi capturado com sucesso!".
 	 - Caso o pokemon já tenha sido capturado o botão deve ser alterado para "Liberar" e ao clicar no botão, deve ser exibido umam mensagem "Pokemon x foi liberado com sucesso!".
-	 - O pokemon capturado deve ser exbindo em ( `/dashboard`).
+	 - Os pokemon capturados devem ser exbindos em ( `/dashboard`).
+	 - O pokemon liberado deve ser removido da lista de pokemons capturados.
+	 - Os pokemons capturados devem ser armazenados no localStorage para persistir a informação para cada usuário diferente.
 
 3. **Estilização:**
    - Faça o design das páginas utilizando CSS moderno ou bibliotecas como TailwindCSS ou Styled Components.
